@@ -187,3 +187,14 @@ figure{
     text-decoration: none;
     cursor: pointer;
 }
+
+.page-wallpaper{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.img-wallpaper{
+    width: 100%;
+    height: 500px;
+}
