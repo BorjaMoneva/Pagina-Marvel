@@ -313,11 +313,7 @@ figure{
     text-align: center;
 }
 
-.title{
-    margin: 0;
-    padding: 0 0 5px;
-    white-space: normal;
-}
+
 
 .card-footer{
     margin: 0;
@@ -326,7 +322,8 @@ figure{
     box-sizing: border-box;
 }
 
-.date{
+p{
+    font: 400 12px/1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
     margin: 0;
     padding: 0;
     letter-spacing: 1px;
