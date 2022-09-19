@@ -84,30 +84,49 @@ body{
     cursor: pointer;
 }
 
+
 .header-bottom{
-    margin-bottom: 0;
+    height: 40px;
     text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    padding: 0;
 }
 
-li {
-    font-size: 0.75rem;
+ul{
+    display: flex;
+    margin: 0 auto;
     list-style: none;
-    display: inline-block;
-    margin-right: 2rem;
-    text-align: left;
-    font-size: 11pt;
-
+    padding: 0;
 }
 
-li a {
-    color: #fff;
+li{
+    font-weight: 800;
+    padding: 0 18px;
+    margin: 0 auto;
+    cursor: pointer;
+    list-style: none;
+}
+
+li a{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border-bottom: 2px solid transparent;
+    box-sizing: border-box;
+    font: 400 12px/1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
     text-decoration: none;
+    letter-spacing: 1px;
+    color: #fff;
 }
 
 li a:hover {
     cursor: pointer;
-    text-decoration: underline;
-    text-decoration-color: red;
+    background-color: #fff;
+    color: black;
+    border-bottom-color: red;
 }
 
 .page-content{
