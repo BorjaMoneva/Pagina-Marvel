@@ -226,19 +226,20 @@ figure{
 }
 
 .info1{
-    padding-left: 500px;
+    padding-top: 400px;
+    padding-left: 1000px;
     position: absolute;
     text-align: center;
     justify-content: center;
 }
 
 .letter{
-    color: black;
+    color: white;
     font-size: 45px;
 }
 
 .info2{
-    color: #151515;
+    color: white;
     padding-top: 10px;
     font-size: 20px;
 }
