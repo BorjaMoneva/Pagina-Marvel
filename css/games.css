@@ -1,0 +1,327 @@
+body{
+    background-color: #202020;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    margin: none;
+    display: block;
+}
+
+.header-top{
+    display: flex;
+}
+.login{
+    margin: 0;
+    padding: 0;
+    width: 33%;
+    border: 1px solid #393939;
+}
+
+.login span{
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.logo{
+    margin: 0;
+    padding: 0;
+    width: 33%;
+    border: 1px solid #393939;
+}
+.logo-img{
+    background-color: #202020;
+    border: none;
+    display: block;
+    align-items: center;
+    margin: 0px auto;
+    cursor: pointer;
+}
+
+.logo-img picture{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img picture img{
+    width: 100px;
+}
+
+.login img:hover{
+    cursor: pointer;
+}
+
+.search{
+    margin: 0;
+    padding: 0;
+    width: 33%;
+    border: 1px solid #393939;
+}
+
+.search-img{
+    background-color: #202020;
+    border: none;
+    display: block;
+    align-items: center;
+    margin: 0px auto;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.search-img picture{
+    display: flex;
+    align-items: center;
+}
+
+.search-img picture img{
+    width: 25px;
+    display: block;
+    align-items: center;
+}
+
+.search-img img:hover{
+    cursor: pointer;
+}
+
+.header-bottom{
+    height: 40px;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    font-weight: 800;
+    padding: 0 18px;
+    margin: 0 auto;
+    cursor: pointer;
+    list-style: none;
+}
+
+li a{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border-bottom: 2px solid transparent;
+    box-sizing: border-box;
+    font: 400 12px/1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+li a:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+    border-bottom-color: red;
+}
+
+.page-content{
+    margin: 0;
+    padding: 0;
+}
+
+.promo{
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-color: #151515;
+}
+
+.promo-general{
+    position: relative;
+    height: 40px;
+    border: none;
+    color: #fff;
+    background-color: #151515;
+    display: flex;
+    align-items: center;
+}
+
+.promo-wrapper{
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.promo-content{
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promo-title{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    pointer-events: none;
+}
+
+.inicial-wallpaper{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.wallpaper{
+    width: 100%;
+    height: 567px;
+    display: flex;
+    background-image: url("https://www.xtrafondos.com/descargar.php?id=8279&resolucion=3840x2160");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.info1{
+    padding-top: 400px;
+    padding-left: 1000px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+}
+
+.letter{
+    font-size: 45px;
+}
+
+.info2{
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.games{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.content-games{
+    max-width: 1240px;
+    padding: 10px 20px 0;
+    margin: 0 auto;
+    display: block;
+}
+
+.content-intro{
+    margin: 0;
+    padding: 0;
+}
+
+.content-grill{
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-column-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(23.75%, 1fr));
+}
+
+.grill{
+    margin: 6px 0 4px;
+    padding: 0;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+
+.movie{
+    text-decoration: none;
+    color: inherit;
+    box-sizing: border-box;
+}
+
+.movie:hover{
+    cursor: pointer;
+}
+
+.card-grill{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+.card-grill-img{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+.img-grill{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0 7px 17px -8px rgb(0 0 0 / 80%);
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.img-movie{
+    margin: 0;
+    padding: 0;
+    display: block;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.card-body{
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 18px 0 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+.card-footer{
+    margin: 0;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+}
+
+p{
+    font: 400 12px/1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+}
